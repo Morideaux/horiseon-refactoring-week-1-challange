@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
+/* page background*/
 body {
     background-color: #d9dcd6;
 }
-
+/*header formating*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,7 +40,7 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*text color and sizing*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -49,7 +49,8 @@ a {
 p {
     font-size: 16px;
 }
-
+/* image positioning*/
+    /*background image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,7 +59,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+    /*main body image formating*/
 .float-left {
     float: left;
     margin-right: 25px;
@@ -67,6 +68,36 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+    /*article image formating*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 .content {
@@ -116,23 +147,7 @@ p {
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/*text settings*/
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -161,17 +176,7 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
+/*heading sizing*/
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -187,6 +192,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/*footer formating*/
 
 .footer {
     padding: 30px;
